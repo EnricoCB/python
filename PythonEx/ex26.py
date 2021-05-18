@@ -1,0 +1,5 @@
+nome = input('Digite seu nome: ').strip()
+nome = nome.lower()
+print(nome.count('a'))
+print(f'A letra (a) apareceu pela primeira vez na posição {nome.find("a") + 1}')
+print(f'A letra (a) apareceu pela ultima vez na posição {nome.rfind("a") + 1}')

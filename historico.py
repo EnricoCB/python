@@ -38,6 +38,5 @@ while True:
             p3 += 1
 
     if opção == 'N':
-        print(f'{n[c - 2]} {op[c3 - 1]} {n[c2 - 2]} = {r[c3 - 1]} ')
         break
    
